@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع خدمات تعليمية متكاملة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Almarai', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        header {
+            background-color: #FFD700;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: white;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #FFD700;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>موقع خدمات تعليمية متكاملة</h1>
+    </header>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#courses">الدورات</a>
+        <a href="#articles">المقالات</a>
+        <a href="#library">المكتبة</a>
+        <a href="#contact">الاتصال</a>
+    </nav>
+    <main>
+        <section id="home" class="hero">
+            <h2>مرحبًا بكم في موقعنا التعليمي</h2>
+            <p>نوفر لكم أفضل الدورات والمقالات والموارد التعليمية.</p>
+        </section>
+        <section id="courses" class="section">
+            <h2>الدورات المتاحة</h2>
+            <p>قريبًا: قائمة بالدورات المتاحة.</p>
+        </section>
+        <section id="articles" class="section">
+            <h2>المقالات التعليمية</h2>
+            <p>قريبًا: مكتبة المقالات التعليمية.</p>
+        </section>
+        <section id="library" class="section">
+            <h2>المكتبة الإلكترونية</h2>
+            <p>قريبًا: مكتبة الموارد التعليمية.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>اتصل بنا</h2>
+            <p>للتواصل: arch.raheeb@gmail.com</p>
+            <p>الهاتف: +96777279225, +967734306152</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 موقع خدمات تعليمية متكاملة. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
